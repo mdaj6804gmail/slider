@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.name h3 {
+  font-family: "Shippori Antique B1", sans-serif;
+}
+
+body{
+    background: #6c757d;
+}
+.cart {
+  /* background: #fe4e00; */
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  position: relative;
+  margin: 40px 64px;
+  
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #6e44ff;
+  max-width: 400px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.profile img {
+  border-radius: 50%;
+}
+.cart p {
+  margin-top: -50px;
+}
+.slider {
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+  transition: 0.5s;
+  margin-left: 0px;
+}
+
+.cart h1 {
+  font-size: 90px;
+  margin-top: -10px;
+  color: #fe4e00;
+}
+
+.mid {
+  width: 250px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 50px;
+  margin-top: -45px;
+  padding-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.profile {
+  z-index: 1;
+}
+.mid p {
+  line-height: 20px;
+  opacity: .6;
+  font-weight: 600;
+}
+ion-icon {
+  font-size: xx-large;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+.button {
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+}
+.mid::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: #fe4e00;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-bottom-right-radius: 100%;
+}
+.mid::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: #fe4e00;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 100%;
+}
+.shap1 {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #b8c0ff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 100%;
+}
+.shap2 {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #b8c0ff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 100%;
+}
+.mid{
+    -webkit-box-shadow: inset 0px 0px 24px 4px rgba(93,114,176,1);
+    -moz-box-shadow: inset 0px 0px 24px 4px rgba(93,114,176,1);
+    box-shadow: inset 0px 0px 24px 4px rgba(93,114,176,1);
+}
+.main{
+    -webkit-box-shadow: 0px 0px 24px 5px rgba(255,255,255,0.24);
+    -moz-box-shadow: 0px 0px 24px 5px rgba(255,255,255,0.24);
+    box-shadow: 0px 0px 24px 5px rgba(255,255,255,0.24);
+}
